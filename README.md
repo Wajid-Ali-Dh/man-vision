@@ -1,6 +1,8 @@
-what # AI-Based Defect Detection and Adaptive Manufacturing Correction System
+ # AI-Based Defect Detection and Adaptive Manufacturing Correction System
 
 This project demonstrates a real-time computer vision pipeline for defect detection in manufacturing, with adaptive decision-making and a visual dashboard.
+
+## Demo: Simulation Video
 
 ## Features
 - **Defect Detection:** Uses YOLOv8 for detecting defects (scratches, tool wear, misalignment) in images, video, or webcam feed.
@@ -18,7 +20,7 @@ man-vision/
 ├── requirements.txt      # Python dependencies
 ├── sample_images/        # Place your test images here
 │   └── ...
-└── yolov8n.pt            # YOLOv8 model weights (auto-downloaded if missing)
+└── yolov8n.pt            # YOLOv8 model weights 
 ```
 
 ## Getting Started
@@ -46,36 +48,9 @@ streamlit run app.py
 - For images, select from the dropdown. For video, upload your file.
 - The dashboard will display predictions and system status.
 
-## Customization
-- **Model:** Replace `yolov8n.pt` with your own trained YOLOv8 model for specific defect types.
-- **Decision Logic:** Edit `decision_module.py` for more advanced or RL-based logic.
-- **Sensor Data:** Modify `sensor_sim.py` to integrate real sensor data.
-
+ 
 ## Demo: Simulation Video
 
-Below is a demonstration of the defect detection and correction system in action:
-
-https://github.com/<your-repo-url>/raw/main/simulation.mkv
-
-Or, if viewing locally, open `simulation.mkv` in your video player to see the simulation.
-
-<!-- If your platform supports HTML, you can embed the video as follows: -->
-<!--
-<video width="600" controls>
-  <source src="simulation.mkv" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
--->
-
-## Example
-![dashboard-screenshot](docs/dashboard_example.png)
-
-## References
-- [Ultralytics YOLOv8](https://docs.ultralytics.com/)
-- [Streamlit Documentation](https://docs.streamlit.io/)
-
-## License
-MIT License
 
 ---
 **Developed for smart manufacturing, predictive maintenance, and visual inspection research.**
