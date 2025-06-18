@@ -3,7 +3,7 @@
 This project demonstrates a real-time computer vision pipeline for defect detection in manufacturing, with adaptive decision-making and a visual dashboard.
 
 ## Demo: Simulation Video
-
+![Simulation Demo](simulation.gif)
 ## Features
 - **Defect Detection:** Uses YOLOv8 for detecting defects (scratches, tool wear, misalignment) in images, video, or webcam feed.
 - **Decision Module:** Rule-based logic to simulate pausing or correcting the process based on defect confidence and simulated sensor data.
@@ -55,25 +55,8 @@ Below is a demonstration of the defect detection and correction system in action
 
 https://github.com/<your-repo-url>/raw/main/simulation.mkv
 
-Or, if viewing locally, open `simulation.mkv` in your video player to see the simulation.
+ 
 
-<!-- If your platform supports HTML, you can embed the video as follows: -->
-<!--
-<video width="600" controls>
-  <source src="simulation.mkv" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
--->
-
-## Example
-![dashboard-screenshot](docs/dashboard_example.png)
-
-## References
-- [Ultralytics YOLOv8](https://docs.ultralytics.com/)
-- [Streamlit Documentation](https://docs.streamlit.io/)
-
-## License
-MIT License
-
+ 
 ---
 **Developed for smart manufacturing, predictive maintenance, and visual inspection research.**
