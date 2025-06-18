@@ -49,14 +49,5 @@ streamlit run app.py
 - The dashboard will display predictions and system status.
 
  
-## Demo: Simulation Video
-
-Below is a demonstration of the defect detection and correction system in action:
-
-https://github.com/<your-repo-url>/raw/main/simulation.mkv
-
- 
-
- 
 ---
 **Developed for smart manufacturing, predictive maintenance, and visual inspection research.**
