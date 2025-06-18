@@ -27,7 +27,7 @@ man-vision/
 
 ### 1. Clone the Repository
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/Wajid-Ali-Dh/man-vision
 cd man-vision
 ```
 
